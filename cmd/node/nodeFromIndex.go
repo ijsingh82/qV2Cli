@@ -9,6 +9,7 @@ import (
 	"strconv"
 
 	"github.com/ijsingh82/qV2Cli/pkg/node"
+	"github.com/ijsingh82/qV2Cli/pkg/utils"
 
 	"github.com/spf13/cobra"
 )
@@ -51,8 +52,8 @@ qV2Cli node fromIndex [index]`,
 		if err != nil {
 			return err
 		}
-		fmt.Printf("The Nodes Details is :\n%+v\n", d)
-		fmt.Printf("The Nodes Status is :\n%+v\n", stat)
+		fmt.Printf("The Nodes Details is:\n %+v\n", utils.PPrint(d))
+		fmt.Printf("The Nodes Status is :%+v\n", stat)
 
 		return nil
 	},

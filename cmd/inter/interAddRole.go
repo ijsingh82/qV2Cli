@@ -8,6 +8,7 @@ import (
 	"fmt"
 
 	"github.com/ijsingh82/qV2Cli/pkg/inter"
+	"github.com/ijsingh82/qV2Cli/pkg/utils"
 
 	"github.com/spf13/cobra"
 )
@@ -68,7 +69,7 @@ var addRoleCmd = &cobra.Command{
 			return err
 		}
 
-		fmt.Printf("This is the transaction receipt for Adding the role: %#v\n", r)
+		fmt.Printf("This is the transaction receipt for Adding the role:\n %+v\n", utils.PPrint(r))
 		fmt.Println()
 
 		return nil

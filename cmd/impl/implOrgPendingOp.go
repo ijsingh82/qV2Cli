@@ -6,6 +6,7 @@ package impl
 
 import (
 	"github.com/ijsingh82/qV2Cli/pkg/impl"
+	"github.com/ijsingh82/qV2Cli/pkg/utils"
 
 	"fmt"
 
@@ -37,7 +38,7 @@ qV2Cli impl pendingOp [orgId]`,
 		if err != nil {
 			return err
 		}
-		fmt.Printf("The Pending Operation Details are :\n%+v \n", op)
+		fmt.Printf("The Pending Operation Details are :\n %+v\n", utils.PPrint(op))
 		fmt.Printf("The Operation Type is :\n%v \n", t)
 
 		return nil

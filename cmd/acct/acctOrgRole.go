@@ -8,6 +8,7 @@ import (
 	"fmt"
 
 	"github.com/ijsingh82/qV2Cli/pkg/accounts"
+	"github.com/ijsingh82/qV2Cli/pkg/utils"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/spf13/cobra"
@@ -42,7 +43,7 @@ qV2Cli acct orgRole [account]`,
 		if err != nil {
 			return err
 		}
-		fmt.Printf("The Accounts Info is :\n %+v\n", d)
+		fmt.Printf("The Org Role Info is :\n %+v\n", utils.PPrint(d))
 		return nil
 	},
 }

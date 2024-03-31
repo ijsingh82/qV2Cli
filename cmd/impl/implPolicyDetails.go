@@ -6,6 +6,7 @@ package impl
 
 import (
 	"github.com/ijsingh82/qV2Cli/pkg/impl"
+	"github.com/ijsingh82/qV2Cli/pkg/utils"
 
 	"fmt"
 
@@ -34,7 +35,7 @@ qV2Cli impl policy`,
 		if err != nil {
 			return err
 		}
-		fmt.Printf("The Policy Details are : \n%+v\n", p)
+		fmt.Printf("The Policy Details are :\n %+v\n", utils.PPrint(p))
 
 		return nil
 	},

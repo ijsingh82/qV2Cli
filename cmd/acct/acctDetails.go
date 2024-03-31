@@ -55,7 +55,7 @@ qV2Cli acct detail [account]`,
 		}
 
 		fmt.Printf("The Accounts Details are :\n %+v\n", utils.PPrint(d))
-		fmt.Printf("The the Account Status : %v is '%v'\n", d.Status, access)
+		fmt.Printf("The the Account Status : %v\n", access)
 
 		return nil
 	},

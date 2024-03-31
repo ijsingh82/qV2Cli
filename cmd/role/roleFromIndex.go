@@ -8,6 +8,7 @@ import (
 	"strconv"
 
 	"github.com/ijsingh82/qV2Cli/pkg/role"
+	"github.com/ijsingh82/qV2Cli/pkg/utils"
 
 	"fmt"
 
@@ -49,7 +50,7 @@ qV2Cli role fromIndex [index]`,
 		if err != nil {
 			return err
 		}
-		fmt.Printf("The Role Details are:\n%+v\n", d)
+		fmt.Printf("The Role Details are:\n %+v\n", utils.PPrint(d))
 		fmt.Printf("The Role status is: %+v\n", stat)
 		return nil
 	},

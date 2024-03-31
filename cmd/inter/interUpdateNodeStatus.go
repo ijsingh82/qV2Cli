@@ -9,6 +9,7 @@ import (
 	"math/big"
 
 	"github.com/ijsingh82/qV2Cli/pkg/inter"
+	"github.com/ijsingh82/qV2Cli/pkg/utils"
 
 	"github.com/spf13/cobra"
 )
@@ -65,7 +66,7 @@ var updNodeStatusCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		fmt.Printf("This is the transaction receipt for updating the node: %#v\n", r)
+		fmt.Printf("This is the transaction receipt for updating the node:\n %+v\n", utils.PPrint(r))
 		fmt.Println()
 		return nil
 

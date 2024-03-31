@@ -9,6 +9,7 @@ import (
 	"strconv"
 
 	"github.com/ijsingh82/qV2Cli/pkg/org"
+	"github.com/ijsingh82/qV2Cli/pkg/utils"
 
 	"github.com/spf13/cobra"
 )
@@ -47,7 +48,7 @@ qV2Cli org fromIndex [index]`,
 		if err != nil {
 			return err
 		}
-		fmt.Printf("The Org info is :\n%+v\n", d)
+		fmt.Printf("The Org info is :\n %+v\n", utils.PPrint(d))
 		fmt.Printf("The Org status is : %v\n", stat)
 		return nil
 	},
