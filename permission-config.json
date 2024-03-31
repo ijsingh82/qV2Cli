@@ -1,0 +1,18 @@
+{
+  "PermissionModel": "v2",
+  "upgradableAddress": "0x3454ABbf2216D08B82190257feE8d7fC25225B35",
+  "interfaceAddress": "0xFA22C0a587794fcd65c040Bd34C256C6B950E5e2",
+  "implAddress": "0xa87ee078b90B20af660AE1aB1BAAe7Ccd56f3C9c",
+  "nodeMgrAddress": "0x3fbe01C72fC1BaD91a8ebA5d19a1130f4a0bdB09",
+  "accountMgrAddress": "0xc30b3B7D58eB7f4Ab45067b073141667095e99F0",
+  "roleMgrAddress": "0x1caC63B406eE5666322bDe1A6882602a1f9b9fd8",
+  "voterMgrAddress": "0x71E37c7FE3a06e08597621ed12eC8a9e8Fb09Ea2",
+  "orgMgrAddress": "0x22B68abeCd890AA236b543e7E8D61b899Ecc59F5",
+  "nwAdminOrg": "ORG",
+  "nwAdminRole": "ADMIN",
+  "orgAdminRole": "ORGADMIN",
+  "accounts": ["0x9c17C61c3eBEB4B04f51f2137E44b5B3fdd374D7"],
+  "subOrgDepth": 3,
+  "subOrgBreadth": 4,
+  "rpc": "http://192.168.68.87:22000"
+}
