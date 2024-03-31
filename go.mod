@@ -1,6 +1,6 @@
 module github.com/ijsingh82/qV2Cli
 
-go 1.21.3
+go 1.21
 
 replace github.com/ethereum/go-ethereum v1.13.14 => /home/inder/quorum
 
