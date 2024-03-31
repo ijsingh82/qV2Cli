@@ -72,7 +72,7 @@ var addOrgKeyCmd = &cobra.Command{
 
 func init() {
 
-	addOrgKeyCmd.PersistentFlags().StringP("password", "p", "", "The password for the keystore.")
+	addOrgKeyCmd.PersistentFlags().StringP("password", "w", "", "The password for the keystore.")
 	addOrgKeyCmd.PersistentFlags().StringP("keyfile", "k", "", "The path to the keystore.")
 	addOrgKeyCmd.PersistentFlags().StringP("enodeId", "e", "", "The enode address for the new node add.")
 	addOrgKeyCmd.PersistentFlags().StringP("orgId", "o", "", "The orgId of the new org.")
