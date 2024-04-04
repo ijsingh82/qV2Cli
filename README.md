@@ -52,7 +52,7 @@ The above commands allow you to get information from the chain -h for all comman
    Keystore:
 
 ```bash
-qV2Cli addAdminKey -newAdmin="TEST" -keyfile="Path/to/kestore/file" -passowrd=""
+qV2Cli addAdminKey -newAdmin="TEST" -keyfile="Path/to/kestore/file" -password=""
 or
 qV2Cli addAdminKey -a="TEST" -k="Path/to/kestore/file" -p=""
 or
